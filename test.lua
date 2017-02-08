@@ -1,3 +1,5 @@
+package.path = package.path .. ";test/testreload/?.lua;skynet-ext/?.lua"
+
 local reload = require "reload"
 reload.postfix = "_update"	-- for test
 

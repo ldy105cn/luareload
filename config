@@ -1,0 +1,11 @@
+thread = 8
+harbor = 0
+start = "tmain"	-- main script
+bootstrap = "snlua bootstrap"	-- The service for bootstrap
+luaservice = "skynet-master/service/?.lua;dblib/?.lua;utils/?.lua;test/testreload/?.lua"
+lualoader = "skynet-master/lualib/loader.lua"
+cpath = "skynet-master/cservice/?.so;"
+snax = "skynet-master/lualib/?.lua"
+lua_path = "skynet-master/lualib/?.lua;skynet-ext/?.lua;dblib/?.lua;utils/?.lua;test/testreload/?.lua"
+lua_cpath = "skynet-master/luaclib/?.so;luaclib/?.so"
+preload = "skynet-ext/preload.lua"
